@@ -155,6 +155,7 @@ const App = () => {
                 stroke="#ef4444"
                 strokeWidth={STROKE}
                 strokeLinecap="square"
+                style={{ strokeLinecap: "round", strokeLinejoin: "round" }}
                 pathLength={100}
                 strokeDasharray={`${progress} ${100 - progress}`}
               />
